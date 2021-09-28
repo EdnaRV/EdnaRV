@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+:root{
+    --color-primary: pink;
+    --color-secondary: lavender;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: var(--color-primary);
+    display: flex;
+    justify-content: center;
+    /*Que ocupe el espacio disponible de la ventana del navegador*/
+    width: 100vw;
+    height: 100vh;
+}
+
+#card{
+    background-color: var(--color-secondary);
+    width: 80%;
+    max-width: 21rem;
+    text-align: center;
+    padding: 2rem; /*en todas las direcciones*/
+}
+#card img{
+    max-width: 100%;
+    width: 40%;
+    border: 0.4rem solid var(--color-primary);
+    border-radius: 20rem;
+}
+
+.ct{
+    color: palevioletred;
+    font-size: 2rem;
+}
+
+.cs{
+    color: skyblue;
+
+}
+.desc{
+    margin: 1rem;
+}
+.icons{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.icons p {
+    color: palevioletred;
+}
